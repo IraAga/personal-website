@@ -10,20 +10,13 @@ export default function Hero() {
   return (
     <header id="hero" className="py-20 sm:py-28">
       <div className="space-y-6">
-        <div className="flex items-start gap-6">
-          <img
-            src={`${import.meta.env.BASE_URL}cv-image.jpeg`}
-            alt="Iraklis Agathis"
-            className="h-24 w-24 rounded-full object-cover border border-zinc-800 shrink-0"
-          />
-          <div>
-            <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
-              Iraklis Agathis
-            </h1>
-            <p className="mt-2 text-xl text-zinc-400">
-              DevOps / Platform Engineer
-            </p>
-          </div>
+        <div>
+          <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
+            Iraklis Agathis
+          </h1>
+          <p className="mt-2 text-xl text-zinc-400">
+            DevOps / Platform Engineer
+          </p>
         </div>
 
         <p className="max-w-2xl text-zinc-400 leading-relaxed">
